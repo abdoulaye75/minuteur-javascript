@@ -1,0 +1,35 @@
+* {font-family: 'Merriweather', serif;}
+
+body {
+	background-image: url("minuteur.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.conteneur {
+	width: 500px;
+	margin: auto;
+	margin-top: 200px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 30px;
+	background-color: #fff;
+}
+
+.conteneur a {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 15px 30px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #337AB7;
+	border-radius: 8px;
+}
+
+.conteneur a:hover {
+	text-decoration: none;
+	color: #337AB7;
+	background-color: #fff;
+	border: 1px solid #337AB7;
+}
